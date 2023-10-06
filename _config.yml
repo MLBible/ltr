@@ -1,0 +1,19 @@
+# This is a comment in YAML
+title: Classical Machine Learning
+author: Arihant
+email: arihant.ai.in@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Get your machine learning journey started.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: arihant_singhi
+github_username:  MLBible
+
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
